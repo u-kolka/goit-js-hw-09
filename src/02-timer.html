@@ -33,4 +33,47 @@
 
     <script src="js/02-timer.js" type="module"></script>
   </body>
+  <style>
+    body {
+      padding-left: 30px;
+    }
+    button[type="button"] {
+      border: 0;
+      padding: 0;
+    height: 40px;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+    button[type="button"]:hover {
+    background-color: darkgray;
+    }
+    #datetime-picker {
+    height: 40px;
+    width: 140px;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    }
+    .timer {
+    display: flex;
+    padding-top: 20px;
+    }
+    .field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    }
+    .value {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .label {
+      font-size: 12px;
+    }
+  </style>
+
 </html>
