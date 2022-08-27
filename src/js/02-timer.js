@@ -30,6 +30,7 @@ const options = {
     Notiflix.Notify.info("Please choose a date in the future");
   } else {
     refs.startBtn.removeAttribute('disabled');
+    refs.startBtn.classList.toggle('btn-hover')
   }
   },
 };
